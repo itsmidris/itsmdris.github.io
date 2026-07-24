@@ -160,3 +160,56 @@
 
 }
 
+/* ===========================
+   NAVBAR - Mobile Fix
+=========================== */
+
+/* Add this at the end of your components.css file */
+
+@media (max-width: 768px) {
+    .navbar nav {
+        height: 70px;
+        padding: 0 16px;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .nav-links {
+        gap: 16px;
+        font-size: 14px;
+    }
+
+    .nav-links a {
+        font-size: 13px;
+    }
+
+    .resume-btn {
+        position: static; /* Remove absolute positioning */
+        padding: 8px 16px;
+        font-size: 13px;
+        border-radius: 10px;
+        margin-left: 8px;
+        flex-shrink: 0; /* Prevent shrinking */
+    }
+}
+
+/* For very small phones */
+@media (max-width: 480px) {
+    .navbar nav {
+        height: 60px;
+        padding: 0 12px;
+    }
+
+    .nav-links {
+        gap: 10px;
+    }
+
+    .nav-links a {
+        font-size: 11px;
+    }
+
+    .resume-btn {
+        padding: 6px 12px;
+        font-size: 11px;
+    }
+}
