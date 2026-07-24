@@ -1,0 +1,49 @@
+/* ===========================
+   HIGHLIGHTS - Mobile Fix
+=========================== */
+
+@media (max-width: 768px) {
+    .highlights-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* 2 columns on mobile */
+        gap: 16px;
+    }
+
+    .highlight-card {
+        padding: 20px 16px;
+        text-align: center;
+    }
+
+    .highlight-card i {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+
+    .highlight-card h3 {
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+
+    .highlight-card p {
+        font-size: 13px;
+    }
+}
+
+/* For very small phones */
+@media (max-width: 400px) {
+    .highlights-grid {
+        gap: 12px;
+    }
+
+    .highlight-card {
+        padding: 16px 12px;
+    }
+
+    .highlight-card h3 {
+        font-size: 17px;
+    }
+
+    .highlight-card p {
+        font-size: 12px;
+    }
+}
