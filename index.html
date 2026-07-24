@@ -43,10 +43,42 @@
     <link rel="stylesheet"
           href="css/responsive.css">
 
+    <script src="https://unpkg.com/lucide@latest"></script>
+
 </head>
 
 <body>
-    <header id="navbar"></header>
+
+    <header class="navbar">
+
+        <div class="container">
+
+            <nav>
+
+                <ul class="nav-links">
+
+                    <li><a href="#hero">Home</a></li>
+
+                    <li><a href="#featured">Projects</a></li>
+
+                    <li><a href="#experience">Experience</a></li>
+
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+
+                <a href="assets/resume/resume.pdf"
+                   class="resume-btn">
+
+                    Resume
+
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
 
 <main>
 
@@ -61,56 +93,52 @@
             <img src="assets/images/profile.png"
                  alt="Md Imran Idrishi"
                  class="hero-image">
-
             <p class="hero-greeting">
                 HELLO, I'M
             </p>
-
             <h1 class="hero-title">
-
-                Md Imran Idrishi
-
+                Mohammad Imran
             </h1>
 
             <h2 class="hero-role">
-
                 Java Backend Developer
-
             </h2>
-
             <p class="hero-description">
-
                 Building secure and scalable backend applications
                 using Java, Spring Boot, Spring Security and REST APIs.
-
             </p>
-
             <div class="hero-buttons">
-
                 <a href="#featured"
                    class="btn btn-primary">
-
                     View Projects
-
                 </a>
-
                 <a href="assets/resume/resume.pdf"
                    class="btn btn-secondary">
-
                     Resume
-
                 </a>
 
             </div>
 
             <div class="hero-social">
+                <a href="https://github.com/itsmidris" target="_blank">
+                    <i data-lucide="code-2"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://linkedin.com/in/itsmidris" target="_blank">
+                    <i data-lucide="user-round"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="mailto:idrishimdimran@gmail.com">
+                    <i data-lucide="mail"></i>
+                    <span>Email</span>
+                </a>
+            </div>
 
-                GitHub
-
-                LinkedIn
-
-                Email
-
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <span></span>
+                </div>
+                <p>Scroll Down</p>
             </div>
 
         </div>
@@ -119,9 +147,163 @@
 
 </section>
 
+    <!-- ================= highlights ================= -->
+
+    <section id="highlights">
+
+        <div class="container">
+
+            <div class="highlights-grid">
+
+                <div class="highlight-card">
+
+                    <i data-lucide="briefcase-business"></i>
+
+                    <h3>4+ Years</h3>
+
+                    <p>Professional Experience</p>
+
+                </div>
+
+                <div class="highlight-card">
+
+                    <i data-lucide="coffee"></i>
+
+                    <h3>Java Backend</h3>
+
+                    <p>Spring Boot • REST APIs</p>
+
+                </div>
+
+                <div class="highlight-card">
+
+                    <i data-lucide="rocket"></i>
+
+                    <h3>EduLead CRM</h3>
+
+                    <p>Live Project</p>
+
+                </div>
+
+                <div class="highlight-card">
+
+                    <i data-lucide="map-pin"></i>
+
+                    <h3>Open</h3>
+
+                    <p>Backend Opportunities</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
     <!-- ================= FEATURED ================= -->
 
-    <section id="featured"></section>
+    <section id="featured">
+
+        <div class="container">
+
+            <div class="section-heading">
+            <span class="section-badge">
+                🚀 Featured Project
+            </span>
+                <h2>
+                    EduLead CRM
+                </h2>
+                <p>
+                    Lead & Admission Management System
+                </p>
+            </div>
+
+            <div class="featured-card">
+
+                <!-- LEFT SIDE -->
+                <div class="featured-left">
+                    <div class="project-image">
+                        <img src="assets/images/edulead-dashboard.png"
+                             alt="EduLead CRM">
+                    </div>
+                    <div class="feature-grid">
+                        <div class="feature-box">
+                            <i data-lucide="check"></i>
+                            <span>Lead Management</span>
+                        </div>
+                        <div class="feature-box">
+                            <i data-lucide="check"></i>
+                            <span>Course Management</span>
+                        </div>
+                        <div class="feature-box">
+                            <i data-lucide="check"></i>
+                            <span>Role Based Auth</span>
+                        </div>
+                        <div class="feature-box">
+                            <i data-lucide="check"></i>
+                            <span>Dashboard</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RIGHT SIDE -->
+
+                <div class="featured-right">
+                    <p class="project-description">
+                        A modern CRM built for educational institutes to manage
+                        student leads, admissions, counselling and courses through
+                        a secure and scalable platform.
+                    </p>
+
+                    <div class="project-metrics">
+                        <div>
+                            <strong>6</strong>
+                            <span>Modules</span>
+                        </div>
+                        <div>
+                            <strong>REST</strong>
+                            <span>API Ready</span>
+                        </div>
+                        <div>
+                            <strong>Live</strong>
+                            <span>Hosted</span>
+                        </div>
+                    </div>
+
+                    <h4>
+                        Project Stack
+                    </h4>
+                    <div class="project-stack">
+                        <span><i data-lucide="coffee"></i>Java</span>
+                        <span><i data-lucide="leaf"></i>Spring Boot</span>
+                        <span><i data-lucide="shield-check"></i>Spring Security</span>
+                        <span><i data-lucide="layout-template"></i>Thymeleaf</span>
+                        <span><i data-lucide="database"></i>MySQL</span>
+                    </div>
+
+                    <div class="project-buttons">
+                        <a href="https://edulead-crm.onrender.com/"
+                           target="_blank"
+                           class="btn btn-primary">
+                            <i data-lucide="rocket"></i>
+                            Live Demo
+                        </a>
+                        <a href="https://github.com/itsmidris/edulead-crm"
+                           target="_blank"
+                           class="btn btn-secondary">
+                            <i data-lucide="code-2"></i>
+                            GitHub
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
 
     <!-- ================= PROJECTS ================= -->
 
