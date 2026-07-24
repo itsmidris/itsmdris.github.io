@@ -1,0 +1,41 @@
+:root{
+
+    /* Colors */
+
+    --bg:#0B1120;
+
+    --surface:#111827;
+
+    --card:#1E293B;
+
+    --primary:#2563EB;
+
+    --accent:#06B6D4;
+
+    --text:#F8FAFC;
+
+    --muted:#94A3B8;
+
+    --border:#334155;
+
+    --success:#22C55E;
+
+    --danger:#EF4444;
+
+    /* Typography */
+
+    --font:'Inter',sans-serif;
+
+    /* Radius */
+
+    --radius:18px;
+
+    /* Container */
+
+    --container:900px;
+
+    /* Transition */
+
+    --transition:.3s ease;
+
+}

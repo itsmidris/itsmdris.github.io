@@ -1,0 +1,43 @@
+itsmdris.github.io/
+
+│
+├── index.html
+│
+├── components/
+│   ├── navbar.html
+│   ├── hero.html
+│   ├── featured.html
+│   ├── projects.html
+│   ├── skills.html
+│   ├── experience.html
+│   ├── education.html
+│   ├── certificates.html
+│   ├── contact.html
+│   └── footer.html
+│
+├── css/
+│   ├── reset.css
+│   ├── variables.css
+│   ├── layout.css
+│   ├── components.css
+│   ├── sections.css
+│   └── responsive.css
+│
+├── js/
+│   ├── loader.js
+│   ├── duke.js
+│   └── main.js
+│
+└── assets/
+
+Hero Name
+56px
+
+Section Title
+38px
+
+Paragraph
+18px
+
+Small Text
+14px
